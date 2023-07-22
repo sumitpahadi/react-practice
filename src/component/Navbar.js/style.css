@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* style.css */
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .log {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .list ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .list li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .list li:last-child {
+    margin-right: 17px;
+}
+
+.list ul li a{
+    color: white;
+}
+
+.heading {
+    
+    display: flex;
+    font-size: xx-large;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 100vh; /* Optional: Sets the height of the container to the full viewport height */
+  }
+
+  .heading h1{
+    background-color: yellow;
+    border-radius: 10px;
+    border:  2px solid black;
+  }
+  
